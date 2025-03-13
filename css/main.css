@@ -1,0 +1,35 @@
+:root{
+    --bs-primary:#C78C06;
+    --bs-secondary: #FFE6AC;
+    --bs-btn-color-rgb: 255,230,172;
+}
+.banner{
+    background: url(../images/main-banner.jpg) no-repeat center;
+    background-size: cover;
+}
+.vision{
+    background: url(../images/vision.jpg) no-repeat center;
+    background-size: cover;
+}
+footer{
+    color: inherit;
+}
+.btn-outline-primary {
+    --bs-btn-color: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+}
+.navbar-nav .nav-link{
+    color: var(--bs-primary);
+}
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link:hover{
+    background-color: var(--bs-primary);
+    color: var(--bs-dark);
+}
+.table-secondary{
+    --bs-table-color: var(--bs-secondary);
+}
